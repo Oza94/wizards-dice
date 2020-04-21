@@ -1,0 +1,13 @@
+.App {
+  flex: 1;
+  display: flex;
+
+  &__drawer {
+    width: 256px;
+  }
+
+  &__main {
+    flex: 1;
+    display: flex;
+  }
+}

@@ -1,0 +1,7 @@
+.SelectInput {
+  display: block;
+  width: 100%;
+  height: var(--form-input-height);
+  font-family: Andanda;
+  height: 32px;
+}

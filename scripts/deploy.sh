@@ -1,0 +1,2 @@
+aws s3 sync ./dist s3://${S3_BUCKET} --delete --acl public-read --exclude index.html --cache-control max-age=2592000
+aws s3 cp ./dist/index.html s3://${S3_BUCKET}/index.html --metadata-directive REPLACE --cache-control max-age=0,no-cache,no-store,must-revalidate --content-type text/html --acl public-read

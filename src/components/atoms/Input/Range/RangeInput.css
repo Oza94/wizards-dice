@@ -1,0 +1,16 @@
+.RangeInput {
+  display: flex;
+  height: var(--form-input-height);
+  align-items: flex-end;
+  padding-bottom: 6px;
+  box-sizing: border-box;
+
+  &__input {
+    flex: 1;
+  }
+
+  &__label {
+    min-width: 48px;
+    text-align: center;
+  }
+}

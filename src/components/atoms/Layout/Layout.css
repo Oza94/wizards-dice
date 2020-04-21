@@ -1,0 +1,5 @@
+.Layout {
+  &--gutter-horizontal > *:not(:first-child) {
+    margin-left: var(--gutter);
+  }
+}

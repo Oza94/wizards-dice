@@ -1,0 +1,12 @@
+.PageContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+
+  &__inner {
+    overflow-y: scroll;
+    flex-basis: 800px;
+    box-sizing: border-box;
+    padding: var(--gutter);
+  }
+}

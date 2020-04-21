@@ -1,0 +1,6 @@
+id: tpl_creature_human
+template:
+  name: '[t[gen_humanmale_name]]'
+  race: 'Humain'
+  age: '[[ 16 + 1d70 ]]'
+  sex: 'Homme'

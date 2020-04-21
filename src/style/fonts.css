@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Andada";
+  src: url(../assets/fonts/Andada-Regular.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Andada";
+  src: url(../assets/fonts/Andada-Bold.otf);
+  font-weight: bold;
+  font-style: normal;
+}

@@ -1,0 +1,4 @@
+id: gen_dwarfmale_name
+items:
+  - name: "[t[gen_dwarfmale_firstname]] [t[gen_dwarf_lastname]]"
+    recursive: true

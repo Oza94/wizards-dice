@@ -1,0 +1,12 @@
+.MenuItem {
+  &__link {
+    display: block;
+    color: var(--color-emphasis-medium);
+    text-decoration: none;
+
+    &:hover,
+    &:global(.active) {
+      color: var(--color-emphasis-high);
+    }
+  }
+}

@@ -1,0 +1,4 @@
+id: gen_humanmale_name
+items:
+  - name: "[t[gen_humanmale_firstname]] [t[gen_human_lastname]]"
+    recursive: true

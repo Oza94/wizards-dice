@@ -1,0 +1,30 @@
+:root {
+  --font-text: "Andada", serif;
+  --color-emphasis-high: rgba(0, 0, 0, 0.87);
+  --color-emphasis-medium: rgba(0, 0, 0, 0.5);
+  --color-emphasis-disabled: rgba(0, 0, 0, 0.38);
+  --color-primary: #4a69bd;
+  --color-primary-dark: #1e3799;
+  --gutter: 16px;
+  --gutter-sm: calc(var(--gutter) / 2);
+  --form-input-height: 32px;
+}
+
+:global(body) {
+  font-family: var(--font-text);
+}
+
+:global(body),
+:global(html) {
+  margin: 0;
+  padding: 0;
+}
+
+:global(#app) {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+}

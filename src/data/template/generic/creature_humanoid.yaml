@@ -1,0 +1,9 @@
+id: tpl_creature_humanoid
+template:
+  type: 'creature'
+  name: 'Creature'
+  race: 'Unknow'
+  desc_appearance: '[t[gen_creature_appearance]]'
+  desc_trait: '[t[gen_creature_trait]]'
+  desc_mania: '[t[gen_creature_mania]]'
+  desc_talent: '[t[gen_creature_talent]]'

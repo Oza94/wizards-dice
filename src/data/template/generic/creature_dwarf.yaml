@@ -1,0 +1,7 @@
+id: tpl_creature_dwarf
+template:
+  type: 'creature'
+  name: '[t[gen_dwarfmale_name]]'
+  race: 'Nain'
+  age: '[[ 40 + 1d350 ]]'
+  sex: 'Homme'

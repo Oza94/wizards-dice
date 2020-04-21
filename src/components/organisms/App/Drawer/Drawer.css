@@ -1,0 +1,15 @@
+.AppDrawer {
+  background: #efefef;
+  border-right: 1px solid lightgrey;
+  padding: var(--gutter-sm);
+
+  &__header {
+    margin-bottom: calc(var(--gutter) * 2);
+  }
+
+  &__title {
+    color: var(--color-emphasis-high);
+    text-decoration: none;
+    font-size: 20px;
+  }
+}
