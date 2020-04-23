@@ -1,4 +1,7 @@
 id: tpl_creature_dwarf
+type: template
+dependencies:
+  - gen_dwarfmale_name
 template:
   type: 'creature'
   name: '[t[gen_dwarfmale_name]]'

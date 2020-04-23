@@ -1,4 +1,5 @@
 id: gen_humanmale_firstname
+type: rolltable
 items:
   - name: Armand
   - name: Adalbert

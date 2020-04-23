@@ -8,7 +8,10 @@ export default class StoreInstance {
 
     this.onDispatch = null
 
+    this.middleware = []
+
     this.dispatch = this.dispatch.bind(this)
+    this.realDispatch = this.realDispatch.bind(this)
   }
 
   addReducer(name, reducer) {
@@ -24,6 +27,29 @@ export default class StoreInstance {
     return !!this.reducers[name]
   }
 
+  addMiddleware(name, func) {
+    this.middleware.push(func(this))
+  }
+
+  hasMiddleware(name) {
+    for (let i = 0; i < this.middleware.length; i++) {
+      if (this.middleware[i].name === name) {
+        return true
+      }
+    }
+
+    return false
+  }
+
+  removeMiddleware(name) {
+    for (let i = 0; i < this.middleware.length; i++) {
+      if (this.middleware[i].name === name) {
+        this.middleware.splice(i, 1)
+        return
+      }
+    }
+  }
+
   removeReducer(name) {
     if (!this.reducers[name]) {
       return
@@ -33,7 +59,21 @@ export default class StoreInstance {
     this.keys = Object.keys(this.reducers)
   }
 
+  runMiddleware(action, end, middlewareIndex = 0) {
+    if (middlewareIndex >= this.middleware.length) {
+      return end(action)
+    }
+
+    this.middleware[middlewareIndex](() =>
+      this.runMiddleware(action, end, middlewareIndex + 1)
+    )(action)
+  }
+
   dispatch(action) {
+    this.runMiddleware(action, this.realDispatch)
+  }
+
+  realDispatch(action) {
     const state = {}
     for (let i = 0; i < this.keys.length; i++) {
       const key = this.keys[i]

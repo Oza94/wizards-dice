@@ -1,4 +1,7 @@
 id: tpl_creature_human
+type: template
+dependencies:
+  - gen_humanmale_name
 template:
   name: '[t[gen_humanmale_name]]'
   race: 'Humain'

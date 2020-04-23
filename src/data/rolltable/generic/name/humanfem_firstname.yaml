@@ -1,4 +1,5 @@
 id: gen_humanfem_firstname
+type: rolltable
 items:
   - name: Adélaïde
   - name: Armande

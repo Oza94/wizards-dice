@@ -1,4 +1,5 @@
 id: gen_elfmale_firstname
+type: rolltable
 items:
   - name: Adanedhel
   - name: Adûnakhôr

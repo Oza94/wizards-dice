@@ -1,4 +1,5 @@
 id: gen_human_lastname
+type: rolltable
 items:
   - name: Abbe
   - name: Adelman

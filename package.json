@@ -5,13 +5,16 @@
   "sideEffects": false,
   "license": "MIT",
   "scripts": {
+    "predev": "yarn manifest",
     "dev": "webpack-dev-server --config webpack.config.dev.js --mode development",
+    "prebuild": "yarn manifest",
     "build": "NODE_ENV=production rm -rf dist/ && webpack --config webpack.config.prod.js",
     "analyze": "NODE_ENV=production webpack --config webpack.config.prod.js --json > webpack-stats.json",
     "lint": "eslint src/ --ext js,jsx",
     "fix": "eslint src/ --ext js,jsx --fix",
     "deploy": "./scripts/deploy.sh",
-    "test": "NODE_ENV=test jest src"
+    "test": "NODE_ENV=test jest src",
+    "manifest": "node scripts/manifest src/data"
   },
   "devDependencies": {
     "@babel/cli": "7.8.4",
@@ -44,10 +47,12 @@
     "svg-sprite-loader": "4.2.3",
     "terser-webpack-plugin": "2.3.5",
     "url-loader": "4.1.0",
+    "watch": "1.0.2",
     "webpack": "4.42.1",
     "webpack-cli": "3.3.11",
     "webpack-dev-server": "3.10.3",
     "webpack-merge": "4.2.2",
+    "yaml": "1.9.2",
     "yaml-loader": "0.6.0"
   },
   "dependencies": {

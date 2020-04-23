@@ -1,4 +1,10 @@
 id: tpl_creature_humanoid
+type: template
+dependencies:
+  - gen_creature_appearance
+  - gen_creature_trait
+  - gen_creature_mania
+  - gen_creature_talent
 template:
   type: 'creature'
   name: 'Creature'

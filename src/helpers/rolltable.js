@@ -12,7 +12,7 @@ export function importRolltable(data) {
   }
 
   return {
-    id: data.id,
+    ...data,
     items,
   }
 }

@@ -1,0 +1,8 @@
+id: generic_tavern_name
+type: rolltable
+recursive: true
+dependencies:
+  - rt_generic_tavern_nameprefix
+  - rt_generic_tavern_namesuffix
+items:
+  - '[t[rt_generic_tavern_nameprefix]] [t[rt_generic_tavern_namesuffix]]'

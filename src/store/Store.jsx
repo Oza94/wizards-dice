@@ -15,6 +15,7 @@ function Store({ children }) {
     if (store.state !== state) {
       setState(store.state)
     }
+
     store.onDispatch = () => {
       setState(store.state)
     }

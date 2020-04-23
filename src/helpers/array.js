@@ -7,3 +7,16 @@ export function alphabetSort(a, b) {
   }
   return 0
 }
+
+export function dedupe(array) {
+  const copy = []
+
+  for (let index = 0; index < array.length; index++) {
+    const element = array[index]
+    if (copy.indexOf(element) < 0) {
+      copy.push(element)
+    }
+  }
+
+  return copy
+}

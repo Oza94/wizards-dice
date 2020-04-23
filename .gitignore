@@ -1,3 +1,5 @@
 node_modules
 .envrc
 dist/
+src/data/manifest.json
+webpack-stats.json

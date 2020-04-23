@@ -1,4 +1,5 @@
 id: gen_dwarfmale_firstname
+type: rolltable
 items:
   - name: Athrandor
   - name: Alrik

@@ -1,4 +1,5 @@
-id: gen_dwarfmale_lastname
+id: gen_dwarf_lastname
+type: rolltable
 items:
   - name: Angrulok
   - name: Agrilaz

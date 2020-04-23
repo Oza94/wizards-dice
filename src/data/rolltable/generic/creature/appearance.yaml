@@ -1,4 +1,5 @@
 id: gen_creature_appearance
+type: rolltable
 items:
   - Bijoux Distinctifs (boucles d'oreilles, collier, bandeau, ect.)
   - Piercings

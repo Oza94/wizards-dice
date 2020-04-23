@@ -76,7 +76,15 @@ module.exports = {
       {
         test: /\.ya?ml$/,
         exclude: /node_modules/,
-        use: ['json-loader', 'yaml-loader'],
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name]_[contenthash].json',
+            },
+          },
+          'yaml-loader',
+        ],
       },
 
       {

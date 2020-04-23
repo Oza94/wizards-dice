@@ -1,4 +1,8 @@
 id: gen_dwarfmale_name
+type: rolltable
+dependencies:
+  - gen_dwarfmale_firstname
+  - gen_dwarf_lastname
 items:
-  - name: "[t[gen_dwarfmale_firstname]] [t[gen_dwarf_lastname]]"
+  - name: '[t[gen_dwarfmale_firstname]] [t[gen_dwarf_lastname]]'
     recursive: true
