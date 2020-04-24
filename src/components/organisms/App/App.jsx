@@ -9,15 +9,15 @@ import {
   PATH_GENERIC_TAVERNNAMES,
 } from '../../../constants/paths'
 import NotFoundPage from '../../../pages/NotFound/NotFound'
-import HomePage from '../../../pages/Home/Home'
-import NPCGenerator from '../../../pages/Generic/NPCGenerator/NPCGenerator'
+import LazyHomePage from '../../../pages/Home/LazyHome'
 import Store from '../../../store/Store'
 import Reducer from '../../../store/Reducer'
 import dataReducer from '../../../store/reducers/data'
 import Middleware from '../../../store/Middleware'
 import fetchDataMiddleware from '../../../store/middleware/fetchData'
-import NPCNamesGeneratorPage from '../../../pages/Generic/NPCNamesGenerator/NPCNamesGenerator'
-import TavernNameGeneratorPage from '../../../pages/Generic/TavernNameGenerator/TavernNameGenerator'
+import LazyNPCGeneratorPage from '../../../pages/Generic/NPCGenerator/LazyNPCGenerator'
+import LazyNPCNamesGeneratorPage from '../../../pages/Generic/NPCNamesGenerator/LazyNPCNamesGenerator'
+import LazyTavernNameGeneratorPage from '../../../pages/Generic/TavernNameGenerator/LazyTavernNameGenerator'
 
 function App() {
   return (
@@ -30,15 +30,15 @@ function App() {
           <Switch>
             <Route
               path={PATH_GENERIC_NPCNAMES}
-              component={NPCNamesGeneratorPage}
+              component={LazyNPCNamesGeneratorPage}
             />
 
             <Route
               path={PATH_GENERIC_TAVERNNAMES}
-              component={TavernNameGeneratorPage}
+              component={LazyTavernNameGeneratorPage}
             />
-            <Route path={PATH_GENERIC_NPCS} component={NPCGenerator} />
-            <Route path={PATH_HOME} component={HomePage} />
+            <Route path={PATH_GENERIC_NPCS} component={LazyNPCGeneratorPage} />
+            <Route path={PATH_HOME} component={LazyHomePage} />
             <Route component={NotFoundPage} />
           </Switch>
         </main>
