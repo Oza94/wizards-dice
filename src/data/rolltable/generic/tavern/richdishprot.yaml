@@ -1,0 +1,9 @@
+id: rt_generic_tavern_richdishprot
+type: rolltable
+recursive: true
+dependencies:
+  - rt_generic_tavern_richdishmeat
+  - rt_generic_tavern_richdishfish
+items:
+  - '[t[rt_generic_tavern_richdishfish]]'
+  - '[t[rt_generic_tavern_richdishmeat]]'

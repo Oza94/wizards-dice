@@ -1,0 +1,9 @@
+id: rt_generic_tavern_modestdish
+type: rolltable
+recursive: true
+dependencies:
+  - rt_generic_tavern_modestdishmain
+  - rt_generic_tavern_modestdishprot
+  - rt_generic_tavern_modestdishdrink
+items:
+  - '[t[rt_generic_tavern_modestdishmain]] [t[rt_generic_tavern_modestdishprot]]. Accompagné de pain, fromage et [t[rt_generic_tavern_modestdishdrink]].'

@@ -11,6 +11,7 @@ function HomePage() {
       </p>
       <h2>Changelog</h2>
       <ul>
+        <li>04/05/2020: Ajout du générateur de menus de tavernes</li>
         <li>23/04/20: Ajout du générateur de noms de tavernes basique </li>
         <li>18/04/20: Ajout du générateur de PNJ basique </li>
         <li>

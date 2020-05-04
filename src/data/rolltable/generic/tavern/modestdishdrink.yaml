@@ -1,0 +1,6 @@
+id: rt_generic_tavern_modestdishdrink
+type: rolltable
+items:
+  - vin
+  - cidre
+  - bière

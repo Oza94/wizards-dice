@@ -1,0 +1,10 @@
+id: rt_generic_tavern_richdish
+type: rolltable
+recursive: true
+dependencies:
+  - rt_generic_tavern_richdishprot
+  - rt_generic_tavern_richdishside
+  - rt_generic_tavern_richdishdessert
+  - rt_generic_tavern_modestdishdrink
+items:
+  - '[t[rt_generic_tavern_richdishprot]] [t[rt_generic_tavern_richdishside]] accompagné(e) de pain, fromage et de [t[rt_generic_tavern_modestdishdrink]] de qualité avec [t[rt_generic_tavern_richdishdessert]]'

@@ -7,6 +7,7 @@ import {
   PATH_HOME,
   PATH_GENERIC_NPCNAMES,
   PATH_GENERIC_TAVERNNAMES,
+  PATH_GENERIC_TAVERNMENUS,
 } from '../../../constants/paths'
 import NotFoundPage from '../../../pages/NotFound/NotFound'
 import LazyHomePage from '../../../pages/Home/LazyHome'
@@ -18,6 +19,7 @@ import fetchDataMiddleware from '../../../store/middleware/fetchData'
 import LazyNPCGeneratorPage from '../../../pages/Generic/NPCGenerator/LazyNPCGenerator'
 import LazyNPCNamesGeneratorPage from '../../../pages/Generic/NPCNamesGenerator/LazyNPCNamesGenerator'
 import LazyTavernNameGeneratorPage from '../../../pages/Generic/TavernNameGenerator/LazyTavernNameGenerator'
+import LazyTavernMenuGeneratorPage from '../../../pages/Generic/TavernMenuGenerator/LazyTavernMenuGenerator'
 
 function App() {
   return (
@@ -31,6 +33,10 @@ function App() {
             <Route
               path={PATH_GENERIC_NPCNAMES}
               component={LazyNPCNamesGeneratorPage}
+            />
+            <Route
+              path={PATH_GENERIC_TAVERNMENUS}
+              component={LazyTavernMenuGeneratorPage}
             />
 
             <Route

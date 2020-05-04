@@ -1,0 +1,12 @@
+id: rt_generic_tavern_miserabledish
+type: rolltable
+recursive: true
+dependencies:
+  - rt_generic_tavern_miserabledishmain
+  - rt_generic_tavern_miserabledishprot
+  - rt_generic_tavern_miserabledishside
+  - rt_generic_tavern_miserabledishmethod
+items:
+  - '[t[rt_generic_tavern_miserabledishmethod]] [t[rt_generic_tavern_miserabledishmain]] [t[rt_generic_tavern_miserabledishprot]] accompagné(e) de [t[rt_generic_tavern_miserabledishside]]'
+  # 50% chances to get a no protein meal
+  - '[t[rt_generic_tavern_miserabledishmethod]] [t[rt_generic_tavern_miserabledishmain]] accompagné(e) de [t[rt_generic_tavern_miserabledishside]]'

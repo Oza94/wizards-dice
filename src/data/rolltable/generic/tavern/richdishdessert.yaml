@@ -1,0 +1,9 @@
+id: rt_generic_tavern_richdishdessert
+type: rolltable
+recursive: true
+dependencies:
+  - rt_generic_tavern_richdishsweet
+  - rt_generic_tavern_richdishfruit
+items:
+  - '[t[rt_generic_tavern_richdishsweet]]'
+  - '[t[rt_generic_tavern_richdishfruit]]'

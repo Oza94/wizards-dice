@@ -1,0 +1,18 @@
+id: rt_generic_tavern_poordishside
+type: rolltable
+items:
+  - bouillie d'orge
+  - bouillie de seigle
+  - bouillie d'avoine
+  - bouillie de millet
+  - bouillie de sarrasin
+  - name: pain de seigle
+    weight: 2
+  - name: pain d'orge
+    weight: 2
+  - name: pain d'avoine
+    weight: 2
+  - name: pain de sarrasin
+    weight: 2
+  - name: pain de froment
+    weight: 2

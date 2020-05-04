@@ -5,6 +5,7 @@ import {
   PATH_GENERIC_NPCS,
   PATH_GENERIC_NPCNAMES,
   PATH_GENERIC_TAVERNNAMES,
+  PATH_GENERIC_TAVERNMENUS,
 } from '../../../../constants/paths'
 import { Menu } from '../../../molecules'
 
@@ -22,6 +23,7 @@ function AppDrawer({ className }) {
         <Menu.Item to={PATH_GENERIC_NPCS}>Personnages complets</Menu.Item>
         <Menu.Header>Générique / Taverne</Menu.Header>
         <Menu.Item to={PATH_GENERIC_TAVERNNAMES}>Noms</Menu.Item>
+        <Menu.Item to={PATH_GENERIC_TAVERNMENUS}>Menus</Menu.Item>
       </Menu>
     </div>
   )

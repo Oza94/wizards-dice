@@ -1,0 +1,12 @@
+id: rt_generic_tavern_aristodish
+type: rolltable
+recursive: true
+dependencies:
+  - rt_generic_tavern_richdishmeat
+  - rt_generic_tavern_richdishfish
+  - rt_generic_tavern_richdishside
+  - rt_generic_tavern_richdishfruit
+  - rt_generic_tavern_richdishsweet
+  - rt_generic_tavern_modestdishdrink
+items:
+  - '[t[rt_generic_tavern_richdishmeat]] et [t[rt_generic_tavern_richdishfish]] [t[rt_generic_tavern_richdishside]] accompagné(e) de pain, fromage et de [t[rt_generic_tavern_modestdishdrink]] grand cru avec [t[rt_generic_tavern_richdishfruit]] et [t[rt_generic_tavern_richdishsweet]]'

@@ -1,0 +1,19 @@
+id: rt_generic_tavern_poordishmain
+type: rolltable
+items:
+  - de lentilles
+  - de pois
+  - de fèves
+  - name: de navets
+    weight: 3
+  - de champignons
+  - d'oignons
+  - de céleris
+  - de poireaux
+  - name: de choux
+    weight: 2
+  - de blettes
+  - de cresson
+  - d'orties
+  - de carottes
+  - de betteraves

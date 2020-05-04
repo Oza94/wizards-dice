@@ -1,0 +1,19 @@
+id: rt_generic_tavern_miserabledishside
+type: rolltable
+items:
+  - name: bouillie d'orge
+    weight: 3
+  - name: bouillie de seigle
+    weight: 3
+  - name: bouillie d'avoine
+    weight: 3
+  - name: bouillie de sarrasin
+    weight: 3
+  - name: pain de seigle rassis
+    weight: 2
+  - name: pain d'orge rassis
+    weight: 2
+  - name: pain d'avoine rassis
+    weight: 2
+  - name: pain de sarrasin rassis
+    weight: 2

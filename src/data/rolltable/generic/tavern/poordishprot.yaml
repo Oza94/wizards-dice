@@ -1,0 +1,21 @@
+id: rt_generic_tavern_poordishprot
+type: rolltable
+recursive: true
+dependencies:
+  - rt_generic_tavern_poordishmain
+items:
+  - '[t[rt_generic_tavern_poordishmain]]'
+  - name: de carcasse de poulet
+    weight: 3
+  - name: d'oeuf
+    weight: 2
+  - name: de porc
+    weight: 2
+  - de poisson
+  - d'huitres
+  - de palourdes
+  - de moules
+  - de lapin
+  - de pigeon
+  - de caille
+  - de bécasse

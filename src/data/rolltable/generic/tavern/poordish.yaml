@@ -1,0 +1,10 @@
+id: rt_generic_tavern_poordish
+type: rolltable
+recursive: true
+dependencies:
+  - rt_generic_tavern_poordishmain
+  - rt_generic_tavern_poordishprot
+  - rt_generic_tavern_poordishside
+  - rt_generic_tavern_poordishmethod
+items:
+  - '[t[rt_generic_tavern_poordishmethod]] [t[rt_generic_tavern_poordishmain]] avec un peu [t[rt_generic_tavern_poordishprot]] accompagné(e) de [t[rt_generic_tavern_poordishside]]'

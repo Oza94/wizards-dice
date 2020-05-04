@@ -1,0 +1,18 @@
+id: rt_generic_tavern_miserabledishmain
+type: rolltable
+items:
+  - name: de navets
+    weight: 5
+  - name: d'algues
+    weight: 4
+  - de feuilles sauvages
+  - debaies
+  - de rutabagas
+  - d'orties
+  - de cresson
+  - de champignons
+  - de carottes
+  - de bettraves
+  - de panais
+  - d'oignons
+  - d'ail
