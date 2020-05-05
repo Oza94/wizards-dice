@@ -19,7 +19,7 @@ function NameGenerator({ options, initialValues }) {
   const values = useFormValues(FORM_NAMEGENERATOR)
   const rolltables = useSelector(rolltablesSelector)
   const generateNames = useCallback(() => {
-    if (values) {
+    if (values && values.table) {
       const template = `[t[${values.table}]]`
       const names = new Array(values.count)
         .fill(null)
